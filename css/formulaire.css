@@ -27,7 +27,8 @@ button{
 #valideemail, #validetel{
 	color: rgb(142 20 40);
 }
-.reseaux img{
-	width: 30px;
-	height: 30px;
+.message{
+	color: red;
+    visibility: hidden;
+    padding-bottom: 50px;
 }
