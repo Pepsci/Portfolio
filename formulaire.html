@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+  <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/formulaire.css">
+	<script type="text/javascript" src="js/jQuery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/formulaire.js"></script>
+</head>
+<body>
+
+    <div class="container">
+      <center>
+        <form>
+          <label>Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Entrez votre nom">
+          <label>Prenom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Entrez votre Prenom">
+          <label>Téléphone</label>
+            <input type="text" name="tel" id="tel" placeholder="Entrez votre numéro de téléphone">
+            <div id="validetel"></div>  
+          <label>Email</label>  
+            <input type="text" name="email" id="email" placeholder="Entrez un Email">
+            <div id="valideemail"><em></em></div>
+          <label>Laissez votre message</label>
+            <textarea rows="6" cols="70" id="textarea" maxlength="200" placeholder="Laissez votre message"></textarea>
+            <span>Total de mots : <span id="compteur_mots">0</span></span>
+            <span>Total de caractères : <span id="compteur_caractere">0</span><span>/200</span></span>
+            <button>Valider</button>
+        </form> 
+      </center>
+
+      <footer>
+        <center>
+          <a href="https://github.com/pepsci/"><img class="reseaux" src="icons/github.png"></a>
+          <a href="mailto:jossfilippi@gmail.com"><img class="reseaux" src="icons/email.png"></a>
+          <a href="https://www.facebook.com/lycosse"><img class="reseaux" src="icons/facebook.png"></a>
+          <a href="https://twitter.com/lycosse"><img class="reseaux" src="icons/twitter.png"></a>
+          <a href="https://www.linkedin.com/in/josse-filippi-211b6311a/"><img class="reseaux" src="icons/in.png"></a>
+        </center>  
+      </footer>
+    </div>
+
+
+</body>
+</html>

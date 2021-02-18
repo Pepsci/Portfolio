@@ -1,0 +1,97 @@
+.container{
+	margin: 0 auto;
+	background-color: transparent;
+    display: flex;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 775px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.skill{
+	display: flex;
+	/*border: 2px solid black;*/
+	padding: 4em;
+	border-radius: 20px;
+	position: relative;
+}
+.skill .name{
+	display: flex;
+	flex-direction: column;
+	font-size: 2em;
+	font-weight: 500;
+	color: #4a4c50;
+	margin-right: 40px;
+}
+
+.skill .name span{
+	user-select: none;
+	margin: 15px 0;
+	box-shadow: 0px 9px #ffffff, 12px -5px 3px 0px #34353c;
+	padding: 10px 20px;
+	text-align: center;
+	border: 5px solid #ebecf0;
+	border-radius: 50px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.skill .name span:hover{
+	transform: translateY(3px);
+	color: #ED8814;
+	box-shadow: 0px 6px #ffffff,	9px -3px 1px 0px #34353c;
+}
+.skill .name span:active{
+	transform: translateY(7px);
+	box-shadow: 0px 2px #ffffff;
+}
+.bar-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.bar-container .bar .progress span{
+	position: absolute;
+	margin-top: 6px;
+    margin-left: 10px;
+    color: #6d7587;
+        
+}
+.bar{
+	color: black;
+	width: 400px;
+	height: 30px;
+	border-radius: 20px;
+	box-shadow: inset 6px 6px 6px #1f2127, inset -6px -6px 6px #ffffff;
+}
+.bar .progress{
+	animation: 3s linear 1s;
+	transition: all 1s ease;
+	height: 100%;
+	background: #345292;
+	border-radius: 20px;
+}
+.bar:nth-child(1) .progress{
+	animation: slide 2.5s cubic-bezier(0.33,1, 0.68,1);
+	width: 90%;
+}
+.bar:nth-child(2) .progress{
+	animation: slide 2.5s cubic-bezier(0.33,1, 0.68,1);
+	width: 75%;
+}
+.bar:nth-child(3) .progress{
+	animation: slide 2.5s cubic-bezier(0.33,1, 0.68,1);
+	width: 60%;
+}
+.bar:nth-child(4) .progress{
+	animation: slide 2.5s cubic-bezier(0.33,1, 0.68,1);
+	width: 60%;
+}
+.bar:nth-child(5) .progress{
+	animation: slide 2.5s cubic-bezier(0.33,1, 0.68,1);
+	width: 40%;
+}
+@keyframes slide { 
+	 0%{width:0%;} to
+	100%{width: 100%;}  
+}
+

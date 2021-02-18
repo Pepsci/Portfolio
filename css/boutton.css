@@ -1,9 +1,13 @@
+body{
+background-color: #FFFFFF;
+background-image: linear-gradient(0deg, #FFFFFF 0%, #7b7b7d 50%, #000000 100%);
+height: 1320px;
+}
 .rond1{
 	font-weight:bold;
 	margin-top: 25px;
 	height: 450px;
 	width: 450px;
-	/*border: solid 2px black;*/
 	border-radius: 50%;
 	background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 89%, rgba(255,255,255,1) 100%);
@@ -13,13 +17,12 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 89%,
 	padding-top: 5px;
 	height: 500px;
 	width: 500px;
-	/*border: solid 2px black;*/
 	border-radius: 50%;
 	background: rgb(106,115,114);
 background: radial-gradient(circle, rgba(106,115,114,1) 0%, rgba(22,22,21,1) 60%, rgba(255,255,255,1) 100%);
 }
 .bouton{
-	margin-top: 150px;
+	margin-top: 545px;
 }
 
 
@@ -47,3 +50,5 @@ width: 42pt; height: 48pt; left: 180.6pt; top: 256.85pt;}
 #warped .w3 {-moz-transform: rotate(5.77rad);-webkit-transform: rotate(5.77rad);-o-transform:
 rotate(5.77rad);-ms-transform: rotate(5.77rad); transform: rotate(5.77rad);
 width: 54pt; height: 48pt; left: 232.45pt; top: 235.23pt;}
+
+
