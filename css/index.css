@@ -77,7 +77,7 @@ nav a:hover{
     top:121px;
     left: 420px;
 }
-.rond {
+.rondpf {
     top: 150px;
     width: 431px;
     height: 431px;
@@ -87,9 +87,9 @@ nav a:hover{
     shape-outside: circle(50%);
 
 }
-.rond:hover{
+.rondpf:hover{
     box-shadow: 7.91px 3.91px 15px #d9dade, -3.91px 2.09px 15px #ffffff;
 }
-.rond:active{
+.rondpf:active{
     box-shadow: 0px 0px #ffffff;
 }
